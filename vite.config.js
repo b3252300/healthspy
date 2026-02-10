@@ -12,7 +12,7 @@ export default defineConfig(({ command, mode }) => {
   const { VITE_PORT, VITE_PROXY_DOMAIN, VITE_PROXY_DOMAIN_REAL, VITE_LEGACY, VITE_PUBLIC_PATH } = env
   return {
     root,
-    base: VITE_PUBLIC_PATH,     
+    base: "/healthspy/",     
     css: {
       preprocessorOptions: {
         scss: {
